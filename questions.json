@@ -25,10 +25,10 @@
     },
     {
         "question": "Was versteht man unter 'Maschinellem Lernen'?",
-        "choice1": "Algorithmen, die logische Schlussfolgerungen ziehen können",
-        "choice2": "Computerprogramme, die aus Daten lernen und sich verbessern",
-        "choice3": "Software, die mathematische Berechnungen durchführt",
-        "choice4": "Programme, die auf Basis von Benutzereingaben agieren",
+        "choice1": "Die Entwicklung intelligenter Agenten, die Schach spielen können",
+        "choice2": "Die Fähigkeit von Computern, ohne explizite Programmierung zu lernen und sich anzupassen",
+        "choice3": "Die Verwendung von Computern zur Lösung komplexer Gleichungen",
+        "choice4": "Die Automatisierung von Routineaufgaben durch Skripte",
         "answer": 2
     },
     {
@@ -41,10 +41,10 @@
     },
     {
         "question": "Was ist ein Neuronales Netzwerk?",
-        "choice1": "Ein Algorithmus zur Datenbankverwaltung",
-        "choice2": "Ein System zur Optimierung von Netzwerkverkehr",
-        "choice3": "Ein System von Algorithmen, das Muster erkennen kann",
-        "choice4": "Ein Protokoll für sichere Datenübertragung",
+        "choice1": "Ein Netzwerk aus miteinander verbundenen Computern",
+        "choice2": "Eine Datenstruktur, die neuronale Verbindungen simuliert",
+        "choice3": "Ein komplexes System von Algorithmen, das menschliches Denken nachahmt",
+        "choice4": "Ein Kommunikationsprotokoll für das Internet der Dinge",
         "answer": 3
     },
     {
@@ -89,10 +89,10 @@
     },
     {
         "question": "Was ist ein Hyperparameter in Machine Learning Modellen?",
-        "choice1": "Ein Parameter, der das Lernverhalten eines Algorithmus steuert",
-        "choice2": "Ein Parameter, der vor dem Trainingsprozess eingestellt wird",
-        "choice3": "Ein Parameter, der die Komplexität eines Modells definiert",
-        "choice4": "Ein Parameter, der die Geschwindigkeit des Lernprozesses bestimmt",
+        "choice1": "Ein Datenpunkt, der während des Trainings generiert wird",
+        "choice2": "Eine Variable, die vor dem Trainingsprozess konfiguriert wird",
+        "choice3": "Ein Kennwert, der die Genauigkeit eines Modells misst",
+        "choice4": "Ein Parameter, der automatisch während des Trainings angepasst wird",
         "answer": 2
     },
     {
@@ -113,10 +113,10 @@
     },
     {
         "question": "Was ist der 'Curse of Dimensionality' in Bezug auf Machine Learning?",
-        "choice1": "Ein Problem, das auftritt, wenn ein Modell zu viele Dimensionen von Daten hat, was zu Schwierigkeiten bei der Generalisierung führt",
-        "choice2": "Ein Problem, das auftritt, wenn die Dimensionalität der Features die Anzahl der Trainingsbeispiele übersteigt",
-        "choice3": "Ein Problem, das auftritt, wenn die Dimensionen der Eingabedaten zu gering sind, um Muster zu erkennen",
-        "choice4": "Ein Problem, das auftritt, wenn die Berechnungskomplexität mit der Anzahl der Dimensionen exponentiell ansteigt",
+        "choice1": "Ein Phänomen, bei dem die Modellleistung mit zu vielen Eingabemerkmalen abnimmt",
+        "choice2": "Eine Bezeichnung für die Komplexität von Algorithmen in großen Datenbanken",
+        "choice3": "Ein Ausdruck für die Schwierigkeit, mehrdimensionale Daten zu kategorisieren",
+        "choice4": "Das Problem der Überanpassung bei zu vielen Trainingsdaten",
         "answer": 1
     }
 ]
