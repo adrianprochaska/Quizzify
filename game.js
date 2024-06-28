@@ -106,7 +106,7 @@ choices.forEach((choice) => {
                 choice.parentElement.classList.remove('correct', 'incorrect');
             });
             getNewQuestion();
-        }, 5000);
+        }, 3000);
     });
 });
 
