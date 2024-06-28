@@ -1,182 +1,122 @@
 [
     {
-        "question" : "The International Literacy Day is observed on ?",
-        "choice1" : "Sep 8",
-        "choice2" : "Nov 28",
-        "choice3" : "May 2",
-        "choice4" : "Sep 22",
-        "answer" : 1
-
+        "question": "Was bedeutet die Abkürzung AI?",
+        "choice1": "Artificial Intelligence",
+        "choice2": "Algorithmic Implementation",
+        "choice3": "Automated Interpretation",
+        "choice4": "Advanced Informatics",
+        "answer": 1
     },
     {
-        "question" : "The language of Lakshadweep. a Union Territory of India, is ?",
-        "choice1" : "Hindi",
-        "choice2" : "Tamil",
-        "choice3" : "Telugu",
-        "choice4" : "Malayalam",
-        "answer" : 4
-
+        "question": "Welche dieser Anwendungen nutzt AI?",
+        "choice1": "E-Mail-Spamfilter",
+        "choice2": "Taschenrechner",
+        "choice3": "Textverarbeitungsprogramme",
+        "choice4": "Digitale Uhren",
+        "answer": 1
     },
     {
-        "question" : "In which group of places the Kumbha Mela is held every twelve years ?",
-        "choice1" : "Ujjain. Purl; Prayag. Haridwar",
-        "choice2" : "Prayag. Haridwar, Ujjain,. Nasik",
-        "choice3" : "Rameshwaram. Purl, Badrinath. Dwarika",
-        "choice4" : "Chittakoot, Ujjain, Prayag,'Haridwar",
-        "answer" : 2
-
+        "question": "Was ist ein Chatbot?",
+        "choice1": "Ein Bot, der Chatrooms moderiert",
+        "choice2": "Ein Programm, das automatisiert auf Chat-Nachrichten antwortet",
+        "choice3": "Ein virtueller Charakter in Videospielen",
+        "choice4": "Ein Tool zur Verschlüsselung von Chats",
+        "answer": 2
     },
     {
-        "question" : "Bahubali festival is related to ?",
-        "choice1" : "Islam",
-        "choice2" : "Hinduism",
-        "choice3" : "Buddhism",
-        "choice4" : "Jainism",
-        "answer" : 4
-
+        "question": "Was versteht man unter 'Maschinellem Lernen'?",
+        "choice1": "Algorithmen, die logische Schlussfolgerungen ziehen können",
+        "choice2": "Computerprogramme, die aus Daten lernen und sich verbessern",
+        "choice3": "Software, die mathematische Berechnungen durchführt",
+        "choice4": "Programme, die auf Basis von Benutzereingaben agieren",
+        "answer": 2
     },
     {
-        "question" : "Which day is observed as the World Standards  Day ?",
-        "choice1" : "Jun 26",
-        "choice2" : "Oct 14",
-        "choice3" : "Nov 15",
-        "choice4" : "Dec 2",
-        "answer" : 2
-
+        "question": "Welche Datenart wird typischerweise nicht für das Training von Machine Learning Modellen verwendet?",
+        "choice1": "Numerische Daten",
+        "choice2": "Kategoriale Daten",
+        "choice3": "Textdaten",
+        "choice4": "Fiktive Daten",
+        "answer": 4
     },
     {
-        "question" : "Who is the current Prime Minister Of India ?",
-        "choice1" : "Shri.Naremdra Modi",
-        "choice2" : "Rahul Gandhi",
-        "choice3" : "Dr. Manmohan Singh",
-        "choice4" : "Jawahar Lal Nehru",
-        "answer" : 1
-
+        "question": "Was ist ein Neuronales Netzwerk?",
+        "choice1": "Ein Algorithmus zur Datenbankverwaltung",
+        "choice2": "Ein System zur Optimierung von Netzwerkverkehr",
+        "choice3": "Ein System von Algorithmen, das Muster erkennen kann",
+        "choice4": "Ein Protokoll für sichere Datenübertragung",
+        "answer": 3
     },
     {
-        "question" : "Who is the current President Of India ?",
-        "choice1" : "Pranab Mukharjee",
-        "choice2" : "Narendra Modi",
-        "choice3" : "Druapadi Murmur",
-        "choice4" : "Rahul Gandhi",
-        "answer" : 3
-
+        "question": "Was ist der Hauptunterschied zwischen Supervised und Unsupervised Learning?",
+        "choice1": "Supervised Learning verwendet gelabelte Daten, Unsupervised Learning nicht",
+        "choice2": "Supervised Learning ist für zeitliche Daten, Unsupervised für räumliche Daten",
+        "choice3": "Unsupervised Learning ist für große Datenmengen, Supervised für kleine",
+        "choice4": "Supervised Learning erfordert menschliche Aufsicht, Unsupervised nicht",
+        "answer": 1
     },
     {
-        "question" : " Where is Taj Mahal located ?",
-        "choice1" : "Agra",
-        "choice2" : "Delhi",
-        "choice3" : "Mumbai",
-        "choice4" : "Mathura",
-        "answer" : 1
-
+        "question": "Was ist ein GAN (Generative Adversarial Network)?",
+        "choice1": "Ein Netzwerk für die Generierung von Sicherheitsprotokollen",
+        "choice2": "Ein Netzwerk, das aus zwei gegeneinander antretenden Netzwerken besteht, um neue, generierte Daten zu produzieren",
+        "choice3": "Ein Netzwerk, das für die Optimierung von Werbeanzeigen verwendet wird",
+        "choice4": "Ein Netzwerk, das ausschließlich für die Bilderkennung entwickelt wurde",
+        "answer": 2
     },
     {
-        "question" : "On Which Day Independence Day is Celebrated ?",
-        "choice1" : "14 Nov",
-        "choice2" : "15 Aug",
-        "choice3" : "26 jan",
-        "choice4" : "2 Oct",
-        "answer" : 2
-
+        "question": "Welche der folgenden Methoden gehört nicht zum Deep Learning?",
+        "choice1": "Convolutional Neural Networks (CNN)",
+        "choice2": "Recurrent Neural Networks (RNN)",
+        "choice3": "Support Vector Machines (SVM)",
+        "choice4": "Autoencoders",
+        "answer": 3
     },
     {
-        "question" : "Who was the First President of India ?",
-        "choice1" : "A.P.J Abdul Kalam",
-        "choice2" : "Dr. Rajendra Prasad",
-        "choice3" : "Sarvepalli Radhakrishnan",
-        "choice4" : "Zakir Hussain",
-        "answer" : 2
-
+        "question": "Was versteht man unter 'Transfer Learning'?",
+        "choice1": "Das Übertragen von Daten zwischen verschiedenen Netzwerken",
+        "choice2": "Das Anwenden von gelerntem Wissen aus einem Bereich auf einen anderen Bereich innerhalb von AI-Modellen",
+        "choice3": "Das Lernen von Algorithmen durch Übertragung von Code",
+        "choice4": "Das Wechseln von einem Lernalgorithmus zu einem anderen während des Trainings",
+        "answer": 2
     },
     {
-        "question" : "On Which Day Childrens Day is Celebrated ?",
-        "choice1" : "2 Oct",
-        "choice2" : "14 Nov",
-        "choice3" : "06 Jun",
-        "choice4" : "11 Mar",
-        "answer" : 2
-
+        "question": "Wie funktioniert Backpropagation in einem Neuronalen Netzwerk?",
+        "choice1": "Durch das Verstärken der Signalwege, die zu korrekten Ausgaben führen",
+        "choice2": "Durch das Zurückleiten von Fehlern von der Ausgabe zur Eingabe, um Gewichte anzupassen",
+        "choice3": "Durch das Auswählen der stärksten Neuronen für die nächste Schicht",
+        "choice4": "Durch das Entfernen von Neuronen, die zu Fehlern führen",
+        "answer": 2
     },
     {
-        "question" : "Who was the First Prime Minister Of India ?",
-        "choice1" : "Swami Vivekanda",
-        "choice2" : "Pandit Jawaharlal Nehru",
-        "choice3" : "Lal Bahadur Shastri",
-        "choice4" : "Indira Gandhi",
-        "answer" : 2
-
+        "question": "Was ist ein Hyperparameter in Machine Learning Modellen?",
+        "choice1": "Ein Parameter, der das Lernverhalten eines Algorithmus steuert",
+        "choice2": "Ein Parameter, der vor dem Trainingsprozess eingestellt wird",
+        "choice3": "Ein Parameter, der die Komplexität eines Modells definiert",
+        "choice4": "Ein Parameter, der die Geschwindigkeit des Lernprozesses bestimmt",
+        "answer": 2
     },
     {
-        "question" : "Who is the Chief Of Defence Staff ?",
-        "choice1" : "Lt General Anil Chauhan",
-        "choice2" : "General Manoj Pandey",
-        "choice3" : "General Manoj Mukund",
-        "choice4" : "General Bipin Rawat",
-        "answer" : 1
-
+        "question": "Was ist 'Reinforcement Learning'?",
+        "choice1": "Ein Lernprozess, bei dem ein Modell durch Belohnungen und Strafen lernt",
+        "choice2": "Ein Lernprozess, der auf der Verstärkung von Eingabesignalen basiert",
+        "choice3": "Ein Lernprozess, der auf wiederholtem Durchlaufen von Trainingsdaten basiert",
+        "choice4": "Ein Lernprozess, der auf der Verstärkung von Verbindungen zwischen Neuronen basiert",
+        "answer": 1
     },
     {
-        "question" : "Which one is a Union Territory of the following ?",
-        "choice1" : "Daman & Diu",
-        "choice2" : "New Delhi",
-        "choice3" : "Mumbai",
-        "choice4" : "Hyderabad",
-        "answer" : 1
-
+        "question": "Welche Aussage über 'Feature Engineering' ist korrekt?",
+        "choice1": "Es ist der Prozess des Hinzufügens neuer Features zu einem bestehenden Modell",
+        "choice2": "Es ist der Prozess der Auswahl und Transformation von Variablen, die als Eingabe für ein Machine Learning Modell dienen",
+        "choice3": "Es ist der Prozess der Erstellung neuer Datenpunkte für ein Trainingsset",
+        "choice4": "Es ist der Prozess der Fehleranalyse und -korrektur in einem Datensatz",
+        "answer": 2
     },
     {
-        "question" : "Who is the Parent Company Of Google ?",
-        "choice1" : "Alphabet",
-        "choice2" : "Microsoft",
-        "choice3" : "Apple",
-        "choice4" : "Amazon",
-        "answer" : 1
-
-    },
-    {
-        "question" : "Who is the Richest Person In the World ?",
-        "choice1" : "Bill Gates",
-        "choice2" : "Elon Musk",
-        "choice3" : "Bernard Arnault & Family",
-        "choice4" : "Jeff Bezos",
-        "answer" : 3
-
-    },
-    {
-        "question" : " What is Full form of C.B.I ?",
-        "choice1" : "Central Bank Of India",
-        "choice2" : "Crime Branch Of India",
-        "choice3" : "Central Bureau Of Investigation",
-        "choice4" : "Corporate Bussiness Intelligence",
-        "answer" : 3
-
-    },
-    {
-        "question" : " What is Full form of RBI ?",
-        "choice1" : "Reserve Bank of India",
-        "choice2" : "Royal Bank of India",
-        "choice3" : "Regional Bank of India",
-        "choice4" : "Reliance Bank of India",
-        "answer" : 1
-
-    },
-    {
-        "question" : " WWhich of the following is the highest mountain peak in India ?",
-        "choice1" : "Mount Everest",
-        "choice2" : "Kanchenjunga",
-        "choice3" : "Nanda Devi",
-        "choice4" : "Annapurna",
-        "answer" : 2
-
-    },
-    {
-        "question" : " Where is Mount Everest located ?",
-        "choice1" : "Nepal",
-        "choice2" : "India",
-        "choice3" : "China",
-        "choice4" : "Bhutan",
-        "answer" : 1
-
+        "question": "Was ist der 'Curse of Dimensionality' in Bezug auf Machine Learning?",
+        "choice1": "Ein Problem, das auftritt, wenn ein Modell zu viele Dimensionen von Daten hat, was zu Schwierigkeiten bei der Generalisierung führt",
+        "choice2": "Ein Problem, das auftritt, wenn die Dimensionalität der Features die Anzahl der Trainingsbeispiele übersteigt",
+        "choice3": "Ein Problem, das auftritt, wenn die Dimensionen der Eingabedaten zu gering sind, um Muster zu erkennen",
+        "choice4": "Ein Problem, das auftritt, wenn die Berechnungskomplexität mit der Anzahl der Dimensionen exponentiell ansteigt",
+        "answer": 1
     }
 ]
