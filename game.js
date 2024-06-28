@@ -92,9 +92,9 @@ choices.forEach((choice) => {
         selectedChoice.parentElement.classList.add(classToApply);
 
         // Highlight the correct answer
-        choices.forEach((choice) => {
-            if (choice.dataset['number'] == currentQuestion.answer) {
-                choice.parentElement.classList.add('correct');
+        choices.forEach((choice_loc) => {
+            if (choice_loc.dataset['number'] == currentQuestion.answer) {
+                choice_loc.parentElement.classList.add('correct');
             }
         });
 
@@ -106,7 +106,7 @@ choices.forEach((choice) => {
                 choice.parentElement.classList.remove('correct', 'incorrect');
             });
             getNewQuestion();
-        }, 1000);
+        }, 5000);
     });
 });
 
