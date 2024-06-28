@@ -39,12 +39,6 @@ fetch('questions.json')
         console.error(err);
     });
 
-        startGame();
-    })
-    .catch((err) => {
-        console.error(err);
-    });
-
 //CONSTANTS
 const CORRECT_BONUS = 7;
 const MAX_QUESTIONS = 15;
