@@ -53,18 +53,13 @@ startGame = () => {
 };
 
 getNewQuestion = () => {
-    if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
+    if (questionCounter >= MAX_QUESTIONS || questionCounter >= questions.length) {
         localStorage.setItem('mostRecentScore', score);
-        //go to the end page
+        // Go to the end page
         return window.location.assign('./end.html');
     }
-    questionCounter++;
-    progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
-    //Update the progress bar
-    progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
 
-    const questionIndex = Math.floor(Math.random() * availableQuesions.length);
-    currentQuestion = availableQuesions[questionIndex];
+    currentQuestion = questions[questionCounter];
     question.innerText = currentQuestion.question;
 
     choices.forEach((choice) => {
@@ -72,7 +67,11 @@ getNewQuestion = () => {
         choice.innerText = currentQuestion['choice' + number];
     });
 
-    availableQuesions.splice(questionIndex, 1);
+    questionCounter++;
+    progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
+    // Update the progress bar
+    progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
+
     acceptingAnswers = true;
 };
 
