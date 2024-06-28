@@ -83,8 +83,7 @@ choices.forEach((choice) => {
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset['number'];
 
-        const classToApply =
-            selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
+        let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
 
         if (classToApply === 'correct') {
             incrementScore(CORRECT_BONUS);
@@ -92,8 +91,20 @@ choices.forEach((choice) => {
 
         selectedChoice.parentElement.classList.add(classToApply);
 
+        // Highlight the correct answer
+        choices.forEach((choice) => {
+            if (choice.dataset['number'] == currentQuestion.answer) {
+                choice.parentElement.classList.add('correct');
+            }
+        });
+
+        // Give some time to show the correct answer, then move on to the next question
         setTimeout(() => {
+            // Remove the classes for the next question
             selectedChoice.parentElement.classList.remove(classToApply);
+            choices.forEach((choice) => {
+                choice.parentElement.classList.remove('correct', 'incorrect');
+            });
             getNewQuestion();
         }, 1000);
     });
